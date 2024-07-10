@@ -25,7 +25,7 @@ with form:
     skin_thickness = st.number_input(label="Enter Thickness of the skin",min_value=data['SkinThickness'].min(),max_value=data['SkinThickness'].max())
     insulin = st.number_input(label="Enter Insulin level",min_value=data['Insulin'].min(),max_value=data['Insulin'].max())
     bmi = st.number_input(label="Enter Body Mass Index",min_value=data['BMI'].min(),max_value=data['BMI'].max())
-    diabetes_pedigree = st.number_input(label="Enter Diabetes Percentage",min_value=data['DiabetesPedigreeFunction'].min(),max_value=data['DiabetesPedigreeFunction'].max(g))
+    diabetes_pedigree = st.number_input(label="Enter Diabetes Percentage",min_value=data['DiabetesPedigreeFunction'].min(),max_value=data['DiabetesPedigreeFunction'].max())
     submit = form.form_submit_button("Submit")
 
 if submit:
